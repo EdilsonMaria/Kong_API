@@ -40,8 +40,8 @@ Contém um serviço simples escrito em Go com:
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
-   cd <nome-do-repositorio>
+   git clone https://github.com/EdilsonMaria/Kong_API.git
+   cd Kong_API
    ```
 
 2. Suba os serviços do Kong e Konga:
@@ -57,7 +57,7 @@ Contém um serviço simples escrito em Go com:
    ```
 
 4. Acesse os seguintes serviços:
-   - **Kong Gateway**: [http://localhost:8000](http://localhost:8000)
+   - **Kong Gateway**: [http://localhost:8001](http://localhost:8001)
    - **Konga Interface**: [http://localhost:1337](http://localhost:1337)
    - **Serviço Simples (via Kong)**: Configurado através do Konga para roteamento.
 
